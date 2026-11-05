@@ -1,0 +1,31 @@
+{
+  "name": "farm-csa",
+  "description": "Bramblecut Farm, a fictional five-person certified organic vegetable farm on 22 acres of Driftless hillside near Viroqua, Wisconsin. It sells a twenty-week CSA (the Stand Card, Half, Full and Kitchen shares, with pay-in-4 and sliding-scale options), runs an honor-box farm stand, and hosts four farm dinners a year at one long table in the squash field. The whole site is dressed as seed packets and produce crates, printed in two inks on kraft.",
+  "version": "1.0.0",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "author": {
+    "name": "Dreamr",
+    "email": "support@dreamr.design",
+    "url": "https://dreamr-design.github.io/dreamr-web"
+  },
+  "keywords": [
+    "ghost-theme"
+  ],
+  "engines": {
+    "ghost": ">=6.0.0"
+  },
+  "config": {
+    "posts_per_page": 6,
+    "card_assets": true,
+    "custom": {
+      "chatsy_agent_id": {
+        "type": "text",
+        "default": ""
+      },
+      "slapform_form_id": {
+        "type": "text",
+        "default": ""
+      }
+    }
+  }
+}
